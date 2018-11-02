@@ -10,3 +10,12 @@ TABLE employees
 ```
 
 Write a query that selects the names of employees who are not managers.
+
+<details><summary>Answer</summary>
+
+``` sql
+SELECT name FROM employees 
+WHERE id NOT IN (SELECT managerId FROM employees WHERE managerid IS NOT NULL);
+```
+
+</details>
