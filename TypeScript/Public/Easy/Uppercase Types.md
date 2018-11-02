@@ -15,8 +15,8 @@ objectType.toUpperCase();
 _(multiple correct answers possible)_
 
 - The typescript compiler confirms that `toUpperCase` exists on the `stringType` instance.
-- The typescript compiler states that `toUpper` does not exist on the anyType instance;
-- The typescript compiler confirms that `toUpperCase` exists on the anyType instance.
+- The typescript compiler states that `toUpper` does not exist on the `anyType` instance;
+- The typescript compiler confirms that `toUpperCase` exists on the `anyType` instance.
 - The typescript compiler states that the `toUpperCase` function does not exist on the `objectType` instance.
 - The typescript compiler confirms that the `toUpperCase` function exists on the `objectType` instance.
 
