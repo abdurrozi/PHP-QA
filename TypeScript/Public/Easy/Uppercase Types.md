@@ -1,4 +1,6 @@
-The following code initializes strings as three different types and attempts to make them uppercase. Which statements about the behavior of the typescript compiler are correct?
+The following code initializes strings as three different types and attempts to make them uppercase. 
+
+Which statements about the behavior of the typescript compiler are correct?
 
 ``` typescript
 let stringType: string = "string type";
