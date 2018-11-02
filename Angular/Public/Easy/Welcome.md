@@ -28,4 +28,3 @@ _(multiple correct answers possible)_
 > - `@NgModule({ declarations: [ WelcomeComponent ] }) export class WelcomeModule {}` declares that the welcome component belongs to the welcome module.
 
 </details>
-
