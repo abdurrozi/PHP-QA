@@ -74,7 +74,6 @@ public class Song
             }
             
             currentSong = currentSong.NextSong;
-            
         }
 
         return false;

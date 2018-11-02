@@ -26,6 +26,21 @@ print(TwoSum.find_two_sum([3, 1, 5, 7, 5, 9], 10))
 <details><summary>Answer</summary>
 
 ``` python
+class TwoSum:
+
+    @staticmethod
+    def find_two_sum(numbers, target_sum):
+        dictionary = {}
+        for i in range(len(numbers)):
+            aim = target_sum - numbers[i];
+            if aim in dictionary:
+                return (dictionary[aim], i)
+            elif numbers[i] not in dictionary:
+                dictionary[numbers[i]] = i
+        return None
+
+
+print(TwoSum.find_two_sum([3, 1, 5, 7, 5, 9], 10))
 ``` 
 
 </details>
